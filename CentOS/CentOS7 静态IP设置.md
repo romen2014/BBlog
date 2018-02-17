@@ -4,7 +4,7 @@
 
 `$ sudo vim /etc/sysconfig/network-scripts/ifcfg-eth0`
 
-### 修改如下内容
+修改如下内容
 
 		BOOTPROTO=”static” #dhcp改为static
 		ONBOOT=”yes” #开机启用本配置
@@ -13,7 +13,7 @@
 		NETMASK=255.255.255.0 #子网掩码
 		DNS1=192.168.1.1 #DNS 配置
 
-### 修改后效果
+修改后效果
 
 `$ cat /etc/sysconfig/network-scripts/ifcfg-eth0`
 
