@@ -1,9 +1,9 @@
 # CentOS7 安装与配置JDK8
 
 ### 安装说明
-  - 系统环境：centos7
-  - 安装方式：tar.gz安装
-  - 软件：jdk-8u91-linux-x64.tar.gz [官网下载](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- 系统环境：centos7
+- 安装方式：tar.gz安装
+- 软件：jdk-8u91-linux-x64.tar.gz [官网下载](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 ### 检验系统原版本
 
