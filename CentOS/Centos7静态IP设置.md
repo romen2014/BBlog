@@ -2,7 +2,7 @@
 
 1. 编辑ifcfg-eth0文件
 
-	使用命令:`$ sudo vim /etc/sysconfig/network-scripts/ifcfg-eth0`
+	`$ sudo vim /etc/sysconfig/network-scripts/ifcfg-eth0`
 
 2. 修改如下内容
 
@@ -17,7 +17,9 @@
 
 3. 修改后效果
 
-	使用命令:`$ cat /etc/sysconfig/network-scripts/ifcfg-eth0`输出如下结果
+	`$ cat /etc/sysconfig/network-scripts/ifcfg-eth0`
+
+	输出如下结果
 
 	```
 	HWADDR=”00:15:5D:07:F1:02″
@@ -44,13 +46,15 @@
 
 4. 重启下网络服务
 
-	使用命令:`$ sudo service network restart`
+	`$ sudo service network restart`
 
 5. 查看改动后的效果
 
 	**Centois 7 不再使用 ifconfig 而是用 ip 命令查看网络信息。**
 
-	使用命令:`$ ip addr`输出如下结果
+	`$ ip addr`
+
+	输出如下结果
 
 	```
 	1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN
